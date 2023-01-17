@@ -1,5 +1,6 @@
 //Generador de html a pdf
 const options = {
+    pagebreak:{avoid:['.card']},//Hace salto de pagina dependiendo la class
     margin: 0.1,
     filename: ".pdf",//Ingresar el nombre que desea que se guarde el pdf,
     image: {
